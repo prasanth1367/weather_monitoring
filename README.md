@@ -29,12 +29,13 @@ weather_monitoring/
 └── main.py                    # Main entry point to start the monitoring process
 
 **Prerequisites**
-. Python 3.8+
-. Git
-. Visual Studio Code (VS Code)
+1. Python 3.8+
+2. Git
+3. Visual Studio Code (VS Code)
 
 
 **Installation**
+
 Clone the Repository:
 command:
 git clone (https://github.com/prasanth1367/weather-monitoring.git)
@@ -45,9 +46,11 @@ cd weather_monitoring
 **Create and activate a virtual environment**
 
 python -m venv venv
-Activate the environment:
-On Windows: venv\Scripts\activate
-On macOS/Linux: source venv/bin/activate
+
+**Activate the environment:**
+
+1. On Windows: venv\Scripts\activate
+2. On macOS/Linux: source venv/bin/activate
 
 **Install Dependencies**
 pip install -r requirements.txt
@@ -74,9 +77,9 @@ Enter the temperature threshold:
 Enter the humidity threshold (percentage):
 
 **Key Features**
-Real-time Weather Data Retrieval: Continuously fetches weather data for selected locations at specified intervals.
-Data Processing and Conversion: Converts raw data into meaningful metrics like temperature in Celsius or Kelvin.
-Daily Summaries and Aggregates: Aggregates weather data daily, providing metrics such as average, maximum, and minimum temperatures, and common weather conditions.
-Threshold-Based Alerts: Monitors temperature thresholds and generates alerts when specific conditions are met.
-Data Storage: Uses PostgreSQL to store historical weather data.
-Visualization: Creates visual representations of the weather data for better insights.
+1. Real-time Weather Data Retrieval: Continuously fetches weather data for selected locations at specified intervals.
+2. Data Processing and Conversion: Converts raw data into meaningful metrics like temperature in Celsius or Kelvin.
+3. Daily Summaries and Aggregates: Aggregates weather data daily, providing metrics such as average, maximum, and minimum temperatures, and common weather conditions.
+4. Threshold-Based Alerts: Monitors temperature thresholds and generates alerts when specific conditions are met.
+5. Data Storage: Uses PostgreSQL to store historical weather data.
+6. Visualization: Creates visual representations of the weather data for better insights.
