@@ -10,12 +10,12 @@ Database: PostgreSQL
 Visualization: Matplotlib
 Scheduler: Cron jobs or Windows Task Scheduler (for interval execution)
 
-##Features:
-1.Real-time weather data retrieval
-2.Data processing and conversion
-3.Daily summaries and aggregates
-4.Alerting based on user-defined thresholds
-5.Visualization of weather data
+**Features**
+1. Real-time weather data retrieval
+2. Data processing and conversion
+3. Daily summaries and aggregates
+4. Alerting based on user-defined thresholds
+5. Visualization of weather data
 
 **Project Structure**
 
