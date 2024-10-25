@@ -1,9 +1,10 @@
 #Weather Monitoring Application
 
 **Objective**
+
 This project aims to develop a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system fetches weather data at set intervals, processes it, stores it, and provides visual and textual alerts based on user-defined thresholds.
 
-##Tech Stack:
+**Tech Stack**
 Programming Language: Python
 API: OpenWeatherMap
 Database: PostgreSQL
