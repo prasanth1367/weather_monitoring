@@ -38,7 +38,7 @@ weather_monitoring/
 
 Clone the Repository:
 command:
-git clone (https://github.com/prasanth1367/weather-monitoring.git)
+git clone (https://github.com/prasanth1367/weather_monitoring.git)
 cd weather_monitoring
 
 
@@ -53,28 +53,33 @@ python -m venv venv
 2. On macOS/Linux: source venv/bin/activate
 
 **Install Dependencies**
+
 pip install -r requirements.txt
 
 **Set Up Database**
+
 This project uses PostgreSQL. Set up a PostgreSQL database with connection details configured in the main script or environment variables.
 
 **Configuration**
+
 Temperature Units: The program will prompt for temperature preferences (Celsius or Kelvin) at the start.
 Alerts Thresholds: Configure thresholds for temperature and specific weather conditions in alerting.py.
 
 **Running the Application**
+
 Run the Monitoring Program: Start the main program with:
 
 python main.py
 
-##After Running the Application:
+**After Running the Application:**
+
 Select Temperature Unit:
 1. Celsius (°C)
 2. Kelvin (K)
 
-##For Alerting 
-Enter the temperature threshold:
-Enter the humidity threshold (percentage):
+**For Alerting** 
+1. Enter the temperature threshold:
+2. Enter the humidity threshold (percentage):
 
 **Key Features**
 1. Real-time Weather Data Retrieval: Continuously fetches weather data for selected locations at specified intervals.
