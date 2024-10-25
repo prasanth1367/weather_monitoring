@@ -9,7 +9,6 @@ This project aims to develop a real-time data processing system to monitor weath
 2. API: OpenWeatherMap
 3. Database: PostgreSQL
 4. Visualization: Matplotlib
-5. Scheduler: Cron jobs or Windows Task Scheduler (for interval execution)
 
 **Features**
 1. Real-time weather data retrieval
