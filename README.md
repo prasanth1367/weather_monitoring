@@ -38,15 +38,15 @@ weather_monitoring/
 
 Clone the Repository:
 command:
+\```bash
 git clone (https://github.com/prasanth1367/weather_monitoring.git)
 cd weather_monitoring
-
-
+\```
 
 **Create and activate a virtual environment**
-```bash
+\```bash
     python -m venv venv
-
+\```
 **Activate the environment:**
 
 1. On Windows: venv\Scripts\activate
