@@ -1,0 +1,232 @@
+---- Program Start ----
+Temperature Unit: °C
+Temperature Threshold: 36.0
+Humidity Threshold: 80.0
+Re-run Interval: 10 seconds
+Number of Re-runs: 2
+
+----- Run 1 (Temperature Unit: °C) -----
+Data collected at: 2024-10-25 17:06:19
+Running weather_fetcher.py...
+Output of weather_fetcher.py:
+Weather data for Delhi stored: 32.05�C, 31% humidity, 4.63 m/s wind
+Weather data for Mumbai stored: 31.99�C, 55% humidity, 4.12 m/s wind
+Weather data for Chennai stored: 32.22�C, 63% humidity, 1.54 m/s wind
+Weather data for Bangalore stored: 27.01�C, 57% humidity, 2.78 m/s wind
+Weather data for Kolkata stored: 24.97�C, 94% humidity, 3.6 m/s wind
+Weather data for Hyderabad stored: 29.73�C, 48% humidity, 4.63 m/s wind
+
+weather_fetcher.py completed.
+
+Running alerting.py...
+Output of alerting.py:
+Alert! Chennai humidity is above 80.0%: 84.0%
+Alert! Bangalore humidity is above 80.0%: 88.0%
+Alert! Kolkata humidity is above 80.0%: 81.0%
+Alert! Hyderabad humidity is above 80.0%: 87.0%
+Alert! Mumbai humidity is above 80.0%: 81.0%
+
+alerting.py completed.
+
+Running forecast_fetcher.py...
+Output of forecast_fetcher.py:
+Forecast summary for Delhi:
+  Average Temperature: 29.93 �C
+  Average Humidity: 35.05%
+  Most Common Condition: Clear
+---------------------------------------------------
+Forecast summary for Mumbai:
+  Average Temperature: 28.23 �C
+  Average Humidity: 68.03%
+  Most Common Condition: Clear
+---------------------------------------------------
+Forecast summary for Chennai:
+  Average Temperature: 29.12 �C
+  Average Humidity: 62.00%
+  Most Common Condition: Clouds
+---------------------------------------------------
+Forecast summary for Bangalore:
+  Average Temperature: 22.51 �C
+  Average Humidity: 66.97%
+  Most Common Condition: Clouds
+---------------------------------------------------
+Forecast summary for Kolkata:
+  Average Temperature: 27.04 �C
+  Average Humidity: 79.67%
+  Most Common Condition: Rain
+---------------------------------------------------
+Forecast summary for Hyderabad:
+  Average Temperature: 25.35 �C
+  Average Humidity: 63.20%
+  Most Common Condition: Clouds
+---------------------------------------------------
+
+forecast_fetcher.py completed.
+
+Running aggregates.py...
+Output of aggregates.py:
+Weather data for Delhi stored: 32.05�C, 31% humidity, 4.63 m/s wind
+Weather data for Mumbai stored: 31.99�C, 55% humidity, 4.12 m/s wind
+Weather data for Chennai stored: 32.22�C, 63% humidity, 1.54 m/s wind
+Weather data for Bangalore stored: 27.01�C, 57% humidity, 2.78 m/s wind
+Weather data for Kolkata stored: 24.97�C, 94% humidity, 3.60 m/s wind
+Weather data for Hyderabad stored: 29.73�C, 48% humidity, 4.63 m/s wind
+
+aggregates.py completed.
+
+Running visualization.py...
+Output of visualization.py:
+
+visualization.py completed.
+
+
+----- Run 2 (Temperature Unit: °C) -----
+Data collected at: 2024-10-25 17:06:38
+Running weather_fetcher.py...
+Output of weather_fetcher.py:
+Weather data for Delhi stored: 32.05�C, 31% humidity, 4.63 m/s wind
+Weather data for Mumbai stored: 31.99�C, 55% humidity, 4.12 m/s wind
+Weather data for Chennai stored: 32.22�C, 63% humidity, 1.54 m/s wind
+Weather data for Bangalore stored: 27.01�C, 57% humidity, 2.78 m/s wind
+Weather data for Kolkata stored: 24.97�C, 94% humidity, 3.6 m/s wind
+Weather data for Hyderabad stored: 29.73�C, 48% humidity, 4.63 m/s wind
+
+weather_fetcher.py completed.
+
+Running alerting.py...
+Output of alerting.py:
+Alert! Chennai humidity is above 80.0%: 84.0%
+Alert! Bangalore humidity is above 80.0%: 88.0%
+Alert! Kolkata humidity is above 80.0%: 81.0%
+Alert! Hyderabad humidity is above 80.0%: 87.0%
+Alert! Mumbai humidity is above 80.0%: 81.0%
+
+alerting.py completed.
+
+Running forecast_fetcher.py...
+Output of forecast_fetcher.py:
+Forecast summary for Delhi:
+  Average Temperature: 29.93 �C
+  Average Humidity: 35.05%
+  Most Common Condition: Clear
+---------------------------------------------------
+Forecast summary for Mumbai:
+  Average Temperature: 28.23 �C
+  Average Humidity: 68.03%
+  Most Common Condition: Clear
+---------------------------------------------------
+Forecast summary for Chennai:
+  Average Temperature: 29.12 �C
+  Average Humidity: 62.00%
+  Most Common Condition: Clouds
+---------------------------------------------------
+Forecast summary for Bangalore:
+  Average Temperature: 22.51 �C
+  Average Humidity: 66.97%
+  Most Common Condition: Clouds
+---------------------------------------------------
+Forecast summary for Kolkata:
+  Average Temperature: 27.04 �C
+  Average Humidity: 79.67%
+  Most Common Condition: Rain
+---------------------------------------------------
+Forecast summary for Hyderabad:
+  Average Temperature: 25.35 �C
+  Average Humidity: 63.20%
+  Most Common Condition: Clouds
+---------------------------------------------------
+
+forecast_fetcher.py completed.
+
+Running aggregates.py...
+Output of aggregates.py:
+Weather data for Delhi stored: 32.05�C, 31% humidity, 4.63 m/s wind
+Weather data for Mumbai stored: 31.99�C, 55% humidity, 4.12 m/s wind
+Weather data for Chennai stored: 32.22�C, 63% humidity, 1.54 m/s wind
+Weather data for Bangalore stored: 27.01�C, 57% humidity, 2.78 m/s wind
+Weather data for Kolkata stored: 24.97�C, 94% humidity, 3.60 m/s wind
+Weather data for Hyderabad stored: 29.73�C, 48% humidity, 4.63 m/s wind
+
+aggregates.py completed.
+
+Running visualization.py...
+Output of visualization.py:
+
+visualization.py completed.
+
+---- Program Start ----
+Temperature Unit: K
+Temperature Threshold: 40.0
+Humidity Threshold: 95.0
+
+----- Run 1 (Temperature Unit: K) -----
+Data collected at: 2024-10-25 17:07:08
+Running weather_fetcher.py...
+Output of weather_fetcher.py:
+Weather data for Delhi stored: 305.20K, 31% humidity, 4.63 m/s wind
+Weather data for Mumbai stored: 305.14K, 55% humidity, 4.12 m/s wind
+Weather data for Chennai stored: 305.37K, 63% humidity, 1.54 m/s wind
+Weather data for Bangalore stored: 300.16K, 57% humidity, 2.78 m/s wind
+Weather data for Kolkata stored: 298.12K, 94% humidity, 3.6 m/s wind
+Weather data for Hyderabad stored: 302.88K, 48% humidity, 4.63 m/s wind
+
+weather_fetcher.py completed.
+
+Running alerting.py...
+Output of alerting.py:
+Alert! Bangalore humidity is above 95.0%: 97.0%
+Alert! Hyderabad humidity is above 95.0%: 96.0%
+
+alerting.py completed.
+
+Running forecast_fetcher.py...
+Output of forecast_fetcher.py:
+Forecast summary for Delhi:
+  Average Temperature: 303.08 K
+  Average Humidity: 35.05%
+  Most Common Condition: Clear
+---------------------------------------------------
+Forecast summary for Mumbai:
+  Average Temperature: 301.38 K
+  Average Humidity: 68.03%
+  Most Common Condition: Clear
+---------------------------------------------------
+Forecast summary for Chennai:
+  Average Temperature: 302.27 K
+  Average Humidity: 62.00%
+  Most Common Condition: Clouds
+---------------------------------------------------
+Forecast summary for Bangalore:
+  Average Temperature: 295.66 K
+  Average Humidity: 66.97%
+  Most Common Condition: Clouds
+---------------------------------------------------
+Forecast summary for Kolkata:
+  Average Temperature: 300.19 K
+  Average Humidity: 79.67%
+  Most Common Condition: Rain
+---------------------------------------------------
+Forecast summary for Hyderabad:
+  Average Temperature: 298.50 K
+  Average Humidity: 63.20%
+  Most Common Condition: Clouds
+---------------------------------------------------
+
+forecast_fetcher.py completed.
+
+Running aggregates.py...
+Output of aggregates.py:
+Weather data for Delhi stored: 305.20K, 31% humidity, 4.63 m/s wind
+Weather data for Mumbai stored: 305.14K, 55% humidity, 4.12 m/s wind
+Weather data for Chennai stored: 305.37K, 63% humidity, 1.54 m/s wind
+Weather data for Bangalore stored: 300.16K, 57% humidity, 2.78 m/s wind
+Weather data for Kolkata stored: 298.12K, 94% humidity, 3.60 m/s wind
+Weather data for Hyderabad stored: 302.88K, 48% humidity, 4.63 m/s wind
+
+aggregates.py completed.
+
+Running visualization.py...
+Output of visualization.py:
+
+visualization.py completed.
+
