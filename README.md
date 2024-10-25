@@ -5,11 +5,11 @@
 This project aims to develop a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system fetches weather data at set intervals, processes it, stores it, and provides visual and textual alerts based on user-defined thresholds.
 
 **Tech Stack**
-Programming Language: Python
-API: OpenWeatherMap
-Database: PostgreSQL
-Visualization: Matplotlib
-Scheduler: Cron jobs or Windows Task Scheduler (for interval execution)
+1. Programming Language: Python
+2. API: OpenWeatherMap
+3. Database: PostgreSQL
+4. Visualization: Matplotlib
+5. Scheduler: Cron jobs or Windows Task Scheduler (for interval execution)
 
 **Features**
 1. Real-time weather data retrieval
@@ -29,9 +29,9 @@ weather_monitoring/
 └── main.py                    # Main entry point to start the monitoring process
 
 **Prerequisites**
-Python 3.8+
-Git
-Visual Studio Code (VS Code)
+. Python 3.8+
+. Git
+. Visual Studio Code (VS Code)
 
 
 **Installation**
