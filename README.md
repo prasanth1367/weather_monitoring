@@ -44,8 +44,8 @@ cd weather_monitoring
 
 
 **Create and activate a virtual environment**
-
-python -m venv venv
+    ```bash
+    python -m venv venv
 
 **Activate the environment:**
 
