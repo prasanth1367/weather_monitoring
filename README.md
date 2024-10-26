@@ -81,6 +81,11 @@ Select Temperature Unit:
 1. Enter the temperature threshold:
 2. Enter the humidity threshold (percentage):
 
+**After Running the Application**
+1. The application will continuously fetch and process weather data based on the specified configurations.
+2. Alerts will be generated if temperature or humidity thresholds are met or exceeded.
+3. Visualization plots will be available for better data insights.
+
 **Key Features**
 1. Real-time Weather Data Retrieval: Continuously fetches weather data for selected locations at specified intervals.
 2. Data Processing and Conversion: Converts raw data into meaningful metrics like temperature in Celsius or Kelvin.
