@@ -60,6 +60,9 @@ command: pip install -r requirements.txt
 
 This project uses PostgreSQL. Set up a PostgreSQL database with connection details configured in the main script or environment variables.
 
+1. install the database
+2. after installing create a database
+   
 **Configuration**
 
 Temperature Units: The program will prompt for temperature preferences (Celsius or Kelvin) at the start.
