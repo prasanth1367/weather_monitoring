@@ -69,7 +69,7 @@ Alerts Thresholds: Configure thresholds for temperature and specific weather con
 
 Run the Monitoring Program: Start the main program with:
 
-python main.py
+command: python main.py
 
 **After Running the Application:**
 
