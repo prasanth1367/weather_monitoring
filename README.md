@@ -39,6 +39,7 @@ Clone the Repository:
 command:
 
 git clone (https://github.com/prasanth1367/weather_monitoring.git)
+
 cd weather_monitoring 
 
 
